@@ -40,6 +40,7 @@ namespace TautuaAPIssuer
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("tautua-issuer-authentication-valid-bearer")),
                     
+                    
                 };
             }
             );
